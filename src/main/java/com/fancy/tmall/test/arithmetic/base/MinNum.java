@@ -1,10 +1,11 @@
-package com.fancy.tmall.test;
+package com.fancy.tmall.test.arithmetic.base;
 
 /**
+ * 求最小数
  * @author caosheng
  * @date 2019/01/04
  */
-public class Test {
+public class MinNum {
     public static void main(String[] args) {
         int a[][]={{1,2,3},{2,3,4,5,6},{1234,5,6,7,7,8,8,8,8,8,8,8,8,8,},{1,2}};
         int min=a[0].length;
